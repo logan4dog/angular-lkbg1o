@@ -1,0 +1,15 @@
+<h2>Products</h2>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
+<div *ngFor="let product of products">
+  <h3> {{product.name}}</h3>
+  <p><span>${{product.price}}</span></p>
+  <p class=description>
+    {{product.description}}
+  </p>
+</div>
